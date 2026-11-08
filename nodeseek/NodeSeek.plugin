@@ -1,7 +1,7 @@
 #!name = NodeSeek自动签到
 #!desc = NodeSeek Cookie 捕获与每日自动签到
 #!author = Nullwhy/DuoJla
-#!homepage = https://github.com/DuoJLa/LoonPlugin
+#!homepage = https://github.com/DuoJLa/Loon
 #!icon = https://raw.githubusercontent.com/Nullwhy/Egern/main/Icon/Nullwhy.png
 #!loon_version = 3.5.1(983)
 #!date = 2026-10-10
@@ -14,8 +14,8 @@ fixed_legs = switch,false,type=boolean,tag=签到方式,desc=关闭为随机鸡�
 enable_capture = switch,false,type=boolean,tag=Cookie,desc=开启后访问NodeSeek个人页保存请求头，成功后请关闭
 
 [Script]
-request if ${url} ~= /^https:\/\/www\.nodeseek\.com\/api\/account\/getInfo\// then script("https://raw.githubusercontent.com/DuoJLa/LoonPlugin/main/nodeseek/NodeSeek-Capture-v2.js", {${enable_capture}}) with enable=${enable_capture}, tag="NodeSeek Cookie v2", timeout=30
-cron ${cron} then script("https://raw.githubusercontent.com/DuoJLa/LoonPlugin/main/nodeseek/NodeSeek-Loon.js?v=1.2.0", {${fixed_legs}}) with tag="NodeSeek 签到", timeout=60
+request if ${url} ~= /^https:\/\/www\.nodeseek\.com\/api\/account\/getInfo\// then script("https://raw.githubusercontent.com/DuoJLa/Loon/main/nodeseek/NodeSeek-Capture-v2.js", {${enable_capture}}) with enable=${enable_capture}, tag="NodeSeek Cookie v2", timeout=30
+cron ${cron} then script("https://raw.githubusercontent.com/DuoJLa/Loon/main/nodeseek/NodeSeek-Loon.js?v=1.2.0", {${fixed_legs}}) with tag="NodeSeek 签到", timeout=60
 
 [MitM]
 hostname = www.nodeseek.com
