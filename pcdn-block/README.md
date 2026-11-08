@@ -1,4 +1,4 @@
-# PCDN Block · Loon 规则集
+# PCDNBlock · Loon 规则集
 
 屏蔽 Bilibili PCDN、Bilibili 遥测及其他 PCDN 域名。共 78 条规则，统一使用 `REJECT` 策略。
 

@@ -13,4 +13,4 @@ Loon plugins converted from Egern and other proxy formats.
 
 | 规则集 | 说明 | Loon 导入 |
 | --- | --- | --- |
-| PCDN Block | 屏蔽 Bilibili PCDN、Bilibili 遥测及其他 PCDN 域名，共 78 条规则，策略为 REJECT。 | [Loon 规则集](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2FDuoJLa%2FLoon%2Fmain%2Fpcdn-block%2FPCDN-Block.list) |
+| PCDNBlock | 屏蔽 Bilibili PCDN、Bilibili 遥测及其他 PCDN 域名，共 78 条规则，策略为 REJECT。 | [Loon 规则集](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2FDuoJLa%2FLoon%2Fmain%2Fpcdn-block%2FPCDN-Block.list) |
