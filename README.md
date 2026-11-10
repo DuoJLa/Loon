@@ -1,7 +1,5 @@
 # Loon
 
-Loon plugins converted from Egern and other proxy formats.
-
 ## 插件列表
 
 | 插件 | 说明 | Loon 导入 |
