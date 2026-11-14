@@ -12,4 +12,4 @@
 | 规则集 | 说明 | Loon 导入 |
 | --- | --- | --- |
 | PCDNBlock | 屏蔽 Bilibili PCDN、Bilibili 遥测及其他 PCDN 域名，共 78 条规则，策略为 REJECT。 | [Loon 规则集](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2FDuoJLa%2FLoon%2Fmain%2Fpcdn-block%2FPCDN-Block.list) |
-| Emby | Emby 规则集模板：局域网直连 + 常用写法示例，规则自行补充。 | [Loon 规则集](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2FDuoJLa%2FLoon%2Fmain%2Femby%2FEmby.list) |
+| Emby | 自用的一些Emby服规则 | [Loon 规则集](https://www.nsloon.com/openloon/import?rules=https%3A%2F%2Fraw.githubusercontent.com%2FDuoJLa%2FLoon%2Fmain%2Femby%2FEmby.list) |
