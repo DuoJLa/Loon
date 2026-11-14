@@ -1,0 +1,24 @@
+# Emby Rule Set - Template - DuoJLa/Loon
+# Sub: https://raw.githubusercontent.com/DuoJLa/Loon/main/emby/Emby.list
+# 用法：Loon > 配置 > 规则 > 订阅规则，填入上面的地址，并在末尾用英文逗号指定默认策略：
+#   .../emby/Emby.list,PROXY     或     .../emby/Emby.list,DIRECT
+# 每行格式：规则类型,参数[,策略][,no-resolve]
+# 行内不写策略时，沿用订阅行末尾指定的策略。
+
+# 局域网直连（Emby 局域网播放不走代理；不需要可删除）
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR6,fc00::/7,DIRECT,no-resolve
+
+# ===== 在此行下方添加你的 Emby 规则 =====
+
+
+# ===== 写法示例（取消行首 # 后生效，请替换为真实域名/IP） =====
+# DOMAIN-SUFFIX,emby.example.com,PROXY
+# DOMAIN-SUFFIX,example.com,PROXY
+# DOMAIN,media.example.com,PROXY
+# DOMAIN-KEYWORD,emby,PROXY
+# DOMAIN-WILDCARD,*.emby.example.com,PROXY
+# IP-CIDR,203.0.113.10/32,PROXY,no-resolve
+# DEST-PORT,8096,PROXY
+# DEST-PORT,8920,PROXY
